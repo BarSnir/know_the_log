@@ -22,7 +22,7 @@ Caused by: java.lang.IllegalArgumentException: Empty key
 	at javax.crypto.spec.SecretKeySpec.<init>(SecretKeySpec.java:96)
 	at com.amazonaws.auth.AbstractAWSSigner.sign(AbstractAWSSigner.java:87)
 	... 15 more
-Sep 9, 2017 6:14:31 AM ERROR com.codingexplained.blog.service.PostServiceImpl: Post Not Found (ID: 2)
+Sep 9, 2017 6:14:31 AM ERROR com.codingexplained.blog.service.PostServiceImpl: Post Not Found (ID: 1)
 	at com.amazonaws.auth.AbstractAWSSigner.signAndBase64Encode(AbstractAWSSigner.java:71)
 	at com.amazonaws.auth.AbstractAWSSigner.signAndBase64Encode(AbstractAWSSigner.java:55)
 	at com.amazonaws.auth.QueryStringSigner.sign(QueryStringSigner.java:83)
